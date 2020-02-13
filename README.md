@@ -4,4 +4,4 @@
 
 </div>
 
-https://img.shields.io/badge/345M-stable-blue
+<img src="345M-stable-blue.svg" alt="345M">
