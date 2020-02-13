@@ -1,4 +1,4 @@
-<div class="alert alert-success">
+<div class="alert alert-block alert-success">
 
     <h2> We start here </h2>
 
