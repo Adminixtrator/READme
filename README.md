@@ -1,11 +1,11 @@
 **Status:**[![Status](https://img.shields.io/badge/Updates-Completed-skirretgreen)](https://github.com/openai/gpt-2)      | *code is provided as-is, no updates expected*
 
-# gpt-2
+<h1 color="green">gpt-2</h1>
 
-GPT-2, a Transformer-based language model and a successor to GPT, has shown unprecedented performance in language modeling, primarily due to its over an order of magnitude more parameters. While GPT-2’s performance on QA with no task-specific training is embryonic, it indicates that an unsupervised language model could contribute to their performance through fine-tuning.
+**GPT-2** - *a Transformer-based language model and a successor to GPT* - has shown unprecedented performance in language modeling, primarily due to its over an order of magnitude more parameters. While GPT-2’s performance on QA with no task-specific training is embryonic, it indicates that an unsupervised language model could contribute to their performance through fine-tuning.
     This repo includes an experiment of fine-tuning GPT-2 345M for Question Answering (QA). It also runs the model on Stanford Question Answering Dataset 2.0 (SQuAD).
 
-## Testing
+## :page_with_curl: _Testing_
 
 Open your terminal and clone https://github.com.Adminixtrator/gpt-2.git
 
