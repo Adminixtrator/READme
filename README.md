@@ -63,4 +63,4 @@ boto3   # Accessing files from S3 directly.
 --------------------------------------------
 ## Credentials
 
-**License: **[![Status](https://img.shields.io/badge/MIT-Approved-electronblue)](./LICENSE)
+**License: **[![Status](https://img.shields.io/badge/MIT-Approved-blue)](./LICENSE)
