@@ -1,10 +1,10 @@
-**Status: **[![Status](https://img.shields.io/badge/Updates-Completed-skirretgreen)](https://github.com/openai/gpt-2)      | *code is provided as-is, no updates expected*
-
 <h1 color="green">gpt-2</h1>
+
+### Status: [![Status](https://img.shields.io/badge/Updates-Completed-skirretgreen)](https://github.com/openai/gpt-2)      | *code is provided as-is, no updates expected*
 
 **GPT-2** - *a Transformer-based language model and a successor to GPT* - has shown unprecedented performance in language modeling, primarily due to its over an order of magnitude more parameters. While GPT-2’s performance on QA with no task-specific training is embryonic, it indicates that an unsupervised language model could contribute to their performance through fine-tuning.
 
-❍ This repo includes an experiment of fine-tuning GPT-2 345M for Question Answering _(QA)_. It also runs the model on Stanford Question Answering Dataset 2.0 _(SQuAD)_.
+-   This repo includes an experiment of fine-tuning GPT-2 345M for Question Answering _(QA)_. It also runs the model on Stanford Question Answering Dataset 2.0 _(SQuAD)_.
 
 ------------------------------------------------------------------------
 
@@ -17,9 +17,10 @@ $ git clone https://github.com.Adminixtrator/gpt-2.git
 ```
 **2.** Download the 345M model
 
-```shell
-$ !python3 download_model.py 345M
-$ !export PYTHONIOENCODING=UTF-8
+```python
+# from your notebook
+!python3 download_model.py 345M
+!export PYTHONIOENCODING=UTF-8
 ```
 **3.** Changing directory
 
@@ -37,7 +38,7 @@ $ pip install regex
 ```shell
 run Test_GPT2.py 
 ```
-See the [Colab Notebook](https://colab.research.google.com/drive/1LeOsYzxxMXDFiI3CXKgUktGZJ7Bvl2-7#scrollTo=oEQYAQ_8Rv3P) if you seem to have issues with testing.
+See the [Colab Notebook](https://colab.research.google.com/drive/1LeOsYzxxMXDFiI3CXKgUktGZJ7Bvl2-7#scrollTo=oEQYAQ_8Rv3P) if you seem to have issues with testing and working with SQuAD.
 
 **_Happy Developing!_**
 
@@ -63,4 +64,4 @@ boto3   # Accessing files from S3 directly.
 --------------------------------------------
 ## Credentials
 
-**License: **[![Status](https://img.shields.io/badge/MIT-Approved-blue)](./LICENSE)
+### License: [![Status](https://img.shields.io/badge/MIT-Approved-blue)](./LICENSE)
