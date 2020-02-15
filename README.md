@@ -20,9 +20,9 @@ $ git clone https://github.com.Adminixtrator/gpt-2.git
 **2.** Download the 345M model
 
 ```shell
-# from your notebook
-!python3 download_model.py 345M
-!export PYTHONIOENCODING=UTF-8
+# from gpt-2 directory
+$ !python3 download_model.py 345M
+$ !export PYTHONIOENCODING=UTF-8
 ```
 **3.** Changing directory
 
